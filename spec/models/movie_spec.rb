@@ -16,7 +16,7 @@ describe 'Movie' do
     it 'has a title' do
       movie.title = "The Matrix"
       expect(movie.title).to eq("The Matrix")
-    end
+    end 
 
     it 'has a release date' do
       movie.release_date = 1999
